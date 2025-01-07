@@ -13,9 +13,13 @@ export default function Header() {
         <h2 className="text-5xl sm:text-6xl md:text-[82px] inline-block">
           Explore homes that fit your dreams
         </h2>
-        <div>
-          <a href="">Project</a>
-          <a href="">Contact Us</a>
+        <div className="space-x-6 mt-6">
+          <a href="#Projects" className="border border-white px-8 py-3 rounded">
+            Projects
+          </a>
+          <a href="#Context" className=" bg-blue-500  px-8 py-3 rounded">
+            Contact Us
+          </a>
         </div>
       </div>
     </div>
