@@ -1,13 +1,14 @@
 import { useState } from "react";
-import Navigationbar from "./components/Navigationbar";
+
+import Header from "./components/header";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Navigationbar />
-    </>
+    <div className="w-full overflow-hidden">
+      <Header />
+    </div>
   );
 }
 
