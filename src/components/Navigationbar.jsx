@@ -7,7 +7,7 @@ export default function Navigationbar() {
     if (showMobileMenu) {
       document.body.style.overflow = "hidden";
     } else {
-      document.body.style.overflow = "hidden";
+      document.body.style.overflow = "auto";
     }
   }, [showMobileMenu]);
   return (
@@ -59,16 +59,32 @@ export default function Navigationbar() {
           />
         </div>
         <ul className="flex flex-col items-center gap-2 mt-5 px-5 text-lg  font-medium">
-          <a href="#Header" className="px-4 py2 rounded-full">
+          <a
+            onClick={() => setMobileMenu(true)}
+            href=""
+            className="px-4 py2 rounded-full"
+          >
             Home
           </a>
-          <a href="#About" className="px-4 py2 rounded-full">
+          <a
+            href="#About"
+            onClick={() => setMobileMenu(true)}
+            className="px-4 py2 rounded-full"
+          >
             About
           </a>
-          <a href="#Projects" className="px-4 py2 rounded-full">
+          <a
+            href="#Projects"
+            onClick={() => setMobileMenu(true)}
+            className="px-4 py2 rounded-full"
+          >
             Projects
           </a>
-          <a href="  Testamonials" className="px-4 py2 rounded-full">
+          <a
+            href="  #Testamonials"
+            onClick={() => setMobileMenu(true)}
+            className="px-4 py2 rounded-full"
+          >
             Testamonials
           </a>
         </ul>
