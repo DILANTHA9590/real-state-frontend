@@ -16,16 +16,19 @@ export default function Navigationbar() {
         <img src={assets.logo} alt="" />
 
         <ul className="hidden md:flex gap-7">
-          <a href="" className="cursor-pointer hover:text-gray-700">
+          <a href="#Header" className="cursor-pointer hover:text-gray-700">
             Home
           </a>
-          <a href="" className="cursor-pointer hover:text-gray-700">
+          <a href="#About" className="cursor-pointer hover:text-gray-700">
             About
           </a>
-          <a href="" className="cursor-pointer hover:text-gray-700">
+          <a href="#Projects" className="cursor-pointer hover:text-gray-700">
             Project
           </a>
-          <a href="" className="cursor-pointer hover:text-gray-700">
+          <a
+            href="#Testimonials"
+            className="cursor-pointer hover:text-gray-700"
+          >
             Testimonials
           </a>
         </ul>
