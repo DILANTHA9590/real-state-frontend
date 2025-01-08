@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 import Header from "./components/header";
+import About from "./components/about";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -8,6 +9,7 @@ function App() {
   return (
     <div className="w-full overflow-hidden">
       <Header />
+      <About />
     </div>
   );
 }
