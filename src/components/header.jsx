@@ -1,5 +1,6 @@
 import React from "react";
 import Navigationbar from "./Navigationbar";
+import { assets } from "../assets/assets";
 export default function Header() {
   return (
     <div
